@@ -11,7 +11,7 @@ public class OSCTest
 {
     public static void main(String[] args)
     {
-        Phoenix phoenix = new Phoenix(com.surenpi.auotest.osc.OSCTest.class);
+        Phoenix phoenix = new Phoenix(OSCTest.class);
         phoenix.init();
 
         OSCPage page = phoenix.getPage(OSCPage.class);
