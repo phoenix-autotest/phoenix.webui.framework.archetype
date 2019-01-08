@@ -11,7 +11,7 @@ public class GithubTest
 {
     public static void main(String[] args)
     {
-        Phoenix phoenix = new Phoenix(com.surenpi.auotest.github.GithubTest.class);
+        Phoenix phoenix = new Phoenix(GithubTest.class);
         phoenix.init();
 
         GithubPage github = phoenix.getPage(GithubPage.class);
