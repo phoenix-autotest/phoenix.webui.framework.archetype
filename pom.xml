@@ -16,9 +16,10 @@
 	<description>WebUI自动化测试框架骨架</description>
 	
 	<scm>
-		<connection>https://github.com/phoenix-autotest/phoenix.webui.framework.archetype.git</connection>
+		<connection>scm:git:git://github.com/phoenix-autotest/phoenix.webui.framework.archetype.git</connection>
 		<url>https://github.com/phoenix-autotest/phoenix.webui.framework.archetype</url>
-		<developerConnection>https://github.com/phoenix-autotest/phoenix.webui.framework.archetype.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:phoenix-autotest/phoenix.webui.framework.archetype.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
 	
 	<build>
