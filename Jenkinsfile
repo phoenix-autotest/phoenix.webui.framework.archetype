@@ -16,9 +16,7 @@ pipeline {
                 sh 'mvn clean package'
             }
         }
-    }
 
-    stages {
         stage('Release') {
             when {
                 branch 'master'
