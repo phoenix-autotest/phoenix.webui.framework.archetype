@@ -13,7 +13,9 @@ pipeline {
                 changeRequest target: 'master'
             }
             steps {
-                sh 'mvn clean package'
+                container('maven'){
+                    sh 'mvn clean package'
+                }
             }
         }
 
@@ -22,8 +24,10 @@ pipeline {
                 branch 'master'
             }
             steps {
-                sh 'mvn release:prepare -B'
-                sh 'mvn release:perform -Darguments="-DsignSkip=false -DdocSkip=false"'
+                container('maven'){
+                    sh 'mvn release:prepare -B'
+                    sh 'mvn release:perform -Darguments="-DsignSkip=false -DdocSkip=false"'
+                }
             }
         }
     }
