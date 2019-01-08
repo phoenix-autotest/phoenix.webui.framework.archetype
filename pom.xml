@@ -9,32 +9,17 @@
 	</parent>
 
 	<artifactId>autotest.web.framework.archetype</artifactId>
-	<version>2.0.1-20180106</version>
+	<version>2.0.2-SNAPSHOT</version>
 
 	<name>Archetype - autotest.web.framework.archetype</name>
 	<url>http://surenpi.com</url>
 	<description>WebUI自动化测试框架骨架</description>
 	
 	<scm>
-		<connection>https://github.com/LinuxSuRen/phoenix.webui.framework.git</connection>
-		<url>https://github.com/LinuxSuRen/phoenix.webui.framework</url>
-		<developerConnection>https://github.com/LinuxSuRen/phoenix.webui.framework.git</developerConnection>
+		<connection>https://github.com/phoenix-autotest/phoenix.webui.framework.archetype.git</connection>
+		<url>https://github.com/phoenix-autotest/phoenix.webui.framework.archetype</url>
+		<developerConnection>https://github.com/phoenix-autotest/phoenix.webui.framework.archetype.git</developerConnection>
 	</scm>
-
-	<repositories>
-		<repository>
-			<id>maven.surenpi.com</id>
-			<name>SuRen Maven Repositories</name>
-			<url>http://maven.surenpi.com/nexus/content/repositories/public/</url>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-		</repository>
-	</repositories>
 	
 	<build>
 		<plugins>
