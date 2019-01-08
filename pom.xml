@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
@@ -9,7 +8,7 @@
 	</parent>
 
 	<artifactId>autotest.web.framework.archetype</artifactId>
-	<version>2.0.2-SNAPSHOT</version>
+	<version>2.0.2</version>
 
 	<name>Archetype - autotest.web.framework.archetype</name>
 	<url>http://surenpi.com</url>
@@ -19,7 +18,7 @@
 		<connection>scm:git:git://github.com/phoenix-autotest/phoenix.webui.framework.archetype.git</connection>
 		<url>https://github.com/phoenix-autotest/phoenix.webui.framework.archetype</url>
 		<developerConnection>scm:git:git@github.com:phoenix-autotest/phoenix.webui.framework.archetype.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>autotest.web.framework.archetype-2.0.2</tag>
 	</scm>
 	
 	<build>
