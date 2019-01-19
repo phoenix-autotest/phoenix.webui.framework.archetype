@@ -13,3 +13,6 @@ phoenix.sh
 export JAVA_OPTS=-Drunner.param.keyword=phoenix.webui.framework.archetype
 ```
 
+# 远程模式
+
+首先根据 `https://linuxsuren.github.io/blog/other/test/` 的提示下载服务端，启动后可以执行 `RemoteTest`.

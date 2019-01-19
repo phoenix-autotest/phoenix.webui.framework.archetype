@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<autotest xmlns="http://surenpi.com">
+    <engine remote="http://localhost:4444/wd/hub"></engine>
+
+    <pages>
+        <page class="${package}.github.page.GithubPage"
+              url="https://github.com/LinuxSuRen">
+            <field name="search" byName="q"></field>
+        </page>
+    </pages>
+</autotest>
